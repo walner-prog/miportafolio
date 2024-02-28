@@ -628,9 +628,9 @@ input[type='checkbox'] {
 /*     Details     */
 /*******************/
 .split .area-1 {
-	height: 100px;
+	height: 100%;
         width: 100%;
-        background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/imagenn.png') center center no-repeat;
+        background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/composicion-sistema-html-sitios-web.jpg') center center no-repeat;
         /* Ajusta estos valores según sea necesario */
 }
 
