@@ -531,7 +531,7 @@ input[type='checkbox'] {
 }
 @media only screen and (max-width: 600px) {
     .header {
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/3.png') center center no-repeat;
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/abstract-smooth-dark-blue-with-black-vignette-studio-well-use-as-backgroundbusiness-reportdigitalwebsite-templatebackdrop.jpg') center center no-repeat;
         background-size: cover;
     }
 }
