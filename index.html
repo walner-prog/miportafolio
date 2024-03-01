@@ -19,7 +19,10 @@
 
     <!-- Webpage Title -->
     <title>DEVWEB</title>
-    
+    <!--animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-hD9wWc+zpt0l1cYEE0iURjGVzV0vFvJTkmBQThz/iXzv3pB0DVv09R7xRlsNDuO6A8uVJ+R2MLk5dQhQIHFZMg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-dU1/8x7NX8Sk8bd2/uK0Gq5z2lMlnF7qO0TnMzPV2Gg9kxlFWp5ntqGO9buj4x43KwRJpjnYW5oI3pKLp3XjpYg==" crossorigin="anonymous" />
+
     <!-- Styles -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@600&display=swap" rel="stylesheet">
@@ -48,17 +51,17 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#header">Inicio <span class="sr-only">(actual)</span></a>
+                        <a class="nav-link  page-scroll effect-hover smooth-scroll" href="#header">Inicio <span class="sr-only">(actual)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#about">Acerca de</a>
+                        <a class="nav-link page-scroll effect-hoverl smooth-scroll" href="#about">Acerca de</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#services">Servicios</a>
+                        <a class="nav-link page-scroll effect-hover smooth-scroll" href="#services">Servicios</a>
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#contact">Contacto</a>
+                        <a class="nav-link page-scroll effect-hover smooth-scroll" href="#contact">Contacto</a>
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
@@ -77,7 +80,7 @@
             
             
             <!-- Encabezado -->
-            <header id="header" class="header">
+            <header id="header" class="header" id="header" class="header" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
@@ -479,5 +482,10 @@
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-xFMX6BSaXjRRV7Uv9U6Zil0r3c+SWEl6S/jmNOViVVd1CgY5JTosXtXGnz1kaReI3yGowT51CHBlUHC+yjH8dzA==" crossorigin="anonymous"></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>

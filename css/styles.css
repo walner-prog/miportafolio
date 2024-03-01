@@ -1313,3 +1313,27 @@ a:hover.back-to-top {
 	/* end of extra pages */
 }
 /* end of min-width 1200px */
+
+/*animaciones */
+/* Animaciones */
+.animate__animated {
+    animation-duration: 1s;
+}
+
+.animate__fadeIn {
+    animation-name: fadeIn;
+}
+
+/* Efectos al pasar el ratón */
+.effect-hover {
+    transition: transform 0.3s ease-in-out;
+}
+
+.effect-hover:hover {
+    transform: scale(1.1);
+}
+
+/* Transiciones suaves */
+.smooth-scroll {
+    transition: scroll-behavior 0.5s ease-in-out;
+}
